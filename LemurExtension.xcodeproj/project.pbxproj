@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		966C59AF1BDCEFCA00BF397D /* LemurExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 966C59AE1BDCEFCA00BF397D /* LemurExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966C59BF1BDE120400BF397D /* Array+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59BE1BDE120400BF397D /* Array+Lemur.swift */; };
+		966C59C81BDF9C6300BF397D /* NSObject+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59C71BDF9C6300BF397D /* NSObject+Lemur.swift */; };
+		966C59CA1BDF9D5A00BF397D /* UIViewController+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59C91BDF9D5A00BF397D /* UIViewController+Lemur.swift */; };
+		966C59CC1BDF9DBD00BF397D /* Int+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59CB1BDF9DBD00BF397D /* Int+Lemur.swift */; };
+		966C59CE1BDF9EB100BF397D /* NSDictionary+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59CD1BDF9EB100BF397D /* NSDictionary+Lemur.swift */; };
+		966C59D61BDF9F4D00BF397D /* LemurExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59D51BDF9F4D00BF397D /* LemurExtensionTests.swift */; };
+		966C59D81BDF9F4D00BF397D /* LemurExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966C59AB1BDCEFCA00BF397D /* LemurExtension.framework */; };
+		966C59DF1BDF9F7200BF397D /* FoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59DE1BDF9F7200BF397D /* FoundationTests.swift */; };
+		966C59E11BDFA09E00BF397D /* UIView+Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59E01BDFA09E00BF397D /* UIView+Shortcuts.swift */; };
+		966C59E31BDFA11900BF397D /* UIColor+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59E21BDFA11900BF397D /* UIColor+Lemur.swift */; };
+		966C59E51BDFA16900BF397D /* UIImage+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59E41BDFA16900BF397D /* UIImage+Lemur.swift */; };
+		966C59E71BDFA18C00BF397D /* UIView+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59E61BDFA18C00BF397D /* UIView+Lemur.swift */; };
+		966C59E91BDFA1A300BF397D /* UITableView+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59E81BDFA1A300BF397D /* UITableView+Lemur.swift */; };
+		966C59EB1BDFA1DB00BF397D /* UIControl+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59EA1BDFA1DB00BF397D /* UIControl+Lemur.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		966C59D91BDF9F4D00BF397D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966C59A21BDCEFCA00BF397D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966C59AA1BDCEFCA00BF397D;
+			remoteInfo = LemurExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		966C59AB1BDCEFCA00BF397D /* LemurExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LemurExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		966C59AE1BDCEFCA00BF397D /* LemurExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LemurExtension.h; sourceTree = "<group>"; };
+		966C59B01BDCEFCA00BF397D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966C59BE1BDE120400BF397D /* Array+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Lemur.swift"; sourceTree = "<group>"; };
+		966C59C71BDF9C6300BF397D /* NSObject+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Lemur.swift"; sourceTree = "<group>"; };
+		966C59C91BDF9D5A00BF397D /* UIViewController+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Lemur.swift"; sourceTree = "<group>"; };
+		966C59CB1BDF9DBD00BF397D /* Int+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Lemur.swift"; sourceTree = "<group>"; };
+		966C59CD1BDF9EB100BF397D /* NSDictionary+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Lemur.swift"; sourceTree = "<group>"; };
+		966C59D31BDF9F4D00BF397D /* LemurExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemurExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966C59D51BDF9F4D00BF397D /* LemurExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemurExtensionTests.swift; sourceTree = "<group>"; };
+		966C59D71BDF9F4D00BF397D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966C59DE1BDF9F7200BF397D /* FoundationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationTests.swift; sourceTree = "<group>"; };
+		966C59E01BDFA09E00BF397D /* UIView+Shortcuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shortcuts.swift"; sourceTree = "<group>"; };
+		966C59E21BDFA11900BF397D /* UIColor+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Lemur.swift"; sourceTree = "<group>"; };
+		966C59E41BDFA16900BF397D /* UIImage+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Lemur.swift"; sourceTree = "<group>"; };
+		966C59E61BDFA18C00BF397D /* UIView+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Lemur.swift"; sourceTree = "<group>"; };
+		966C59E81BDFA1A300BF397D /* UITableView+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Lemur.swift"; sourceTree = "<group>"; };
+		966C59EA1BDFA1DB00BF397D /* UIControl+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Lemur.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966C59A71BDCEFCA00BF397D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966C59D01BDF9F4D00BF397D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C59D81BDF9F4D00BF397D /* LemurExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		966C59A11BDCEFCA00BF397D = {
+			isa = PBXGroup;
+			children = (
+				966C59AD1BDCEFCA00BF397D /* LemurExtension */,
+				966C59D41BDF9F4D00BF397D /* LemurExtensionTests */,
+				966C59AC1BDCEFCA00BF397D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		966C59AC1BDCEFCA00BF397D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966C59AB1BDCEFCA00BF397D /* LemurExtension.framework */,
+				966C59D31BDF9F4D00BF397D /* LemurExtensionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966C59AD1BDCEFCA00BF397D /* LemurExtension */ = {
+			isa = PBXGroup;
+			children = (
+				966C59AE1BDCEFCA00BF397D /* LemurExtension.h */,
+				966C59C61BDF9C4800BF397D /* Foundation */,
+				966C59BC1BDE11E600BF397D /* Swift */,
+				966C59BD1BDE11E600BF397D /* UIKit */,
+				966C59B01BDCEFCA00BF397D /* Info.plist */,
+			);
+			path = LemurExtension;
+			sourceTree = "<group>";
+		};
+		966C59BC1BDE11E600BF397D /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				966C59BE1BDE120400BF397D /* Array+Lemur.swift */,
+				966C59CB1BDF9DBD00BF397D /* Int+Lemur.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		966C59BD1BDE11E600BF397D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				966C59C91BDF9D5A00BF397D /* UIViewController+Lemur.swift */,
+				966C59E01BDFA09E00BF397D /* UIView+Shortcuts.swift */,
+				966C59E21BDFA11900BF397D /* UIColor+Lemur.swift */,
+				966C59E41BDFA16900BF397D /* UIImage+Lemur.swift */,
+				966C59E61BDFA18C00BF397D /* UIView+Lemur.swift */,
+				966C59E81BDFA1A300BF397D /* UITableView+Lemur.swift */,
+				966C59EA1BDFA1DB00BF397D /* UIControl+Lemur.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		966C59C61BDF9C4800BF397D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				966C59C71BDF9C6300BF397D /* NSObject+Lemur.swift */,
+				966C59CD1BDF9EB100BF397D /* NSDictionary+Lemur.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		966C59D41BDF9F4D00BF397D /* LemurExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				966C59D51BDF9F4D00BF397D /* LemurExtensionTests.swift */,
+				966C59DE1BDF9F7200BF397D /* FoundationTests.swift */,
+				966C59D71BDF9F4D00BF397D /* Info.plist */,
+			);
+			path = LemurExtensionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		966C59A81BDCEFCA00BF397D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C59AF1BDCEFCA00BF397D /* LemurExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		966C59AA1BDCEFCA00BF397D /* LemurExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966C59B31BDCEFCA00BF397D /* Build configuration list for PBXNativeTarget "LemurExtension" */;
+			buildPhases = (
+				966C59A61BDCEFCA00BF397D /* Sources */,
+				966C59A71BDCEFCA00BF397D /* Frameworks */,
+				966C59A81BDCEFCA00BF397D /* Headers */,
+				966C59A91BDCEFCA00BF397D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemurExtension;
+			productName = LemurExtension;
+			productReference = 966C59AB1BDCEFCA00BF397D /* LemurExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		966C59D21BDF9F4D00BF397D /* LemurExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966C59DB1BDF9F4D00BF397D /* Build configuration list for PBXNativeTarget "LemurExtensionTests" */;
+			buildPhases = (
+				966C59CF1BDF9F4D00BF397D /* Sources */,
+				966C59D01BDF9F4D00BF397D /* Frameworks */,
+				966C59D11BDF9F4D00BF397D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966C59DA1BDF9F4D00BF397D /* PBXTargetDependency */,
+			);
+			name = LemurExtensionTests;
+			productName = LemurExtensionTests;
+			productReference = 966C59D31BDF9F4D00BF397D /* LemurExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966C59A21BDCEFCA00BF397D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Lemur;
+				TargetAttributes = {
+					966C59AA1BDCEFCA00BF397D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					966C59D21BDF9F4D00BF397D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 966C59A51BDCEFCA00BF397D /* Build configuration list for PBXProject "LemurExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 966C59A11BDCEFCA00BF397D;
+			productRefGroup = 966C59AC1BDCEFCA00BF397D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966C59AA1BDCEFCA00BF397D /* LemurExtension */,
+				966C59D21BDF9F4D00BF397D /* LemurExtensionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966C59A91BDCEFCA00BF397D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966C59D11BDF9F4D00BF397D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966C59A61BDCEFCA00BF397D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C59BF1BDE120400BF397D /* Array+Lemur.swift in Sources */,
+				966C59CC1BDF9DBD00BF397D /* Int+Lemur.swift in Sources */,
+				966C59E11BDFA09E00BF397D /* UIView+Shortcuts.swift in Sources */,
+				966C59E71BDFA18C00BF397D /* UIView+Lemur.swift in Sources */,
+				966C59CA1BDF9D5A00BF397D /* UIViewController+Lemur.swift in Sources */,
+				966C59E31BDFA11900BF397D /* UIColor+Lemur.swift in Sources */,
+				966C59EB1BDFA1DB00BF397D /* UIControl+Lemur.swift in Sources */,
+				966C59C81BDF9C6300BF397D /* NSObject+Lemur.swift in Sources */,
+				966C59CE1BDF9EB100BF397D /* NSDictionary+Lemur.swift in Sources */,
+				966C59E51BDFA16900BF397D /* UIImage+Lemur.swift in Sources */,
+				966C59E91BDFA1A300BF397D /* UITableView+Lemur.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966C59CF1BDF9F4D00BF397D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C59DF1BDF9F7200BF397D /* FoundationTests.swift in Sources */,
+				966C59D61BDF9F4D00BF397D /* LemurExtensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		966C59DA1BDF9F4D00BF397D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966C59AA1BDCEFCA00BF397D /* LemurExtension */;
+			targetProxy = 966C59D91BDF9F4D00BF397D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		966C59B11BDCEFCA00BF397D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		966C59B21BDCEFCA00BF397D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		966C59B41BDCEFCA00BF397D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LemurExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = work.lemur.LemurExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		966C59B51BDCEFCA00BF397D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LemurExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = work.lemur.LemurExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		966C59DC1BDF9F4D00BF397D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LemurExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = work.lemur.LemurExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		966C59DD1BDF9F4D00BF397D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LemurExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = work.lemur.LemurExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966C59A51BDCEFCA00BF397D /* Build configuration list for PBXProject "LemurExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966C59B11BDCEFCA00BF397D /* Debug */,
+				966C59B21BDCEFCA00BF397D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966C59B31BDCEFCA00BF397D /* Build configuration list for PBXNativeTarget "LemurExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966C59B41BDCEFCA00BF397D /* Debug */,
+				966C59B51BDCEFCA00BF397D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966C59DB1BDF9F4D00BF397D /* Build configuration list for PBXNativeTarget "LemurExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966C59DC1BDF9F4D00BF397D /* Debug */,
+				966C59DD1BDF9F4D00BF397D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 966C59A21BDCEFCA00BF397D /* Project object */;
+}
